@@ -13,6 +13,11 @@ pipeline {
                 }
             }
         }
+        stage('Run Unit Test') {
+			steps {
+				sh "make test"
+			}
+		}
         stage('Build Image') {
             steps {
                 sh "make local"

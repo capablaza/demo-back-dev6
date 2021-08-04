@@ -49,5 +49,23 @@ public class CreditConsumer {
 
         return false;
     }
+/*
+    public boolean evaluation(){
+        int amount = 150000;
+        int quotas = 13;
+        int incomes = 650000;
 
+        if(amount >= 100000 && amount <= 1000000 && quotas >= 3 && quotas <= 36 && incomes >= 300000 && incomes <= 1000000){
+            return true;
+        }else if(amount >= 1000000 && amount <= 3000000 && quotas >= 3 && quotas <= 36 && incomes >= 500000 && incomes <= 1000000){
+            return true;
+        }else if(amount >= 3000000 && amount <= 5000000 && quotas >= 13 && quotas <= 36 && incomes >= 500000 && incomes <= 1000000){
+            return true;
+        }else if(amount >= 7000000 && amount <= 9000000 && quotas >= 13 && quotas <= 36 && incomes >= 500000 && incomes <= 1000000){
+            return true;
+        }
+
+        return false;
+    }
+*/
 }

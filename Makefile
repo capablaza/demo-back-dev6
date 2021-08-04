@@ -12,6 +12,9 @@ all: build run
 pre-build:
 	./gradlew build
 
+test:
+	./gradlew test
+
 clean-images-not-used:
 	-docker images -a --no-trunc | grep 'none' | awk '{print $3}' | xargs docker rmi
 
